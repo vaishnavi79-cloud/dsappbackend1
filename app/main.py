@@ -2,6 +2,7 @@
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from . import models, schemas
+from .database import Base, engine
 from .database import SessionLocal, engine, Base
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
