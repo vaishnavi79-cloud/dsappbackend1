@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pandas
+prophet
+sqlalchemy
+pydantic
+python-multipart
+aiofiles
